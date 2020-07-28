@@ -17,3 +17,12 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+/*
+    Routes for Meals
+*/
+Route::get('/meals', 'MealController@all')->name('meals.all');
+Route::post('/meals', 'MealController@store')->name('meals.store');
+Route::get('/meals/{Meal}', 'MealController@show')->name('meals.show');
+Route::put('/meals/{Meal}', 'MealController@update')->name('meals.update');
+Route::delete('/meals/{Meal}', 'MealController@destory')->name('meals.destroy');

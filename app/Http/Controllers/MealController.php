@@ -15,6 +15,8 @@ class MealController extends Controller
     public function index()
     {
         //
+        $meals = Meal::all();
+        return response()->json($meals);
     }
 
     /**
@@ -47,6 +49,7 @@ class MealController extends Controller
     public function show(Meal $meal)
     {
         //
+        return $meal;
     }
 
     /**
