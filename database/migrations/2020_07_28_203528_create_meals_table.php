@@ -17,7 +17,7 @@ class CreateMealsTable extends Migration
             $table->id();
             $table->string('name');
             $table->text('description')->nullable();
-            $table->integer('amount');
+            $table->integer('amount')->default(1);
             $table->float('price');
             $table->string('path_to_photo')->nullable();
             $table->timestamps();

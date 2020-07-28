@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "name": "Bacon Pizza",
+        "description": "Lot's of Bacon I guess :)",
+        "price": "6",
+        "path_to_photo": ""
+    },
+    {
+        "id": 2,
+        "name": "Black Oliva v1",
+        "description": "Black olives, paprika, onion",
+        "price": "8",
+        "path_to_photo": ""
+    },
+    {
+        "id": 3,
+        "name": "Eggs pizza",
+        "description": "Eggs, a bit of prosciutto, cheese",
+        "price": "5",
+        "path_to_photo": ""
+    },
+    {
+        "id": 4,
+        "name": "Paprika pizza",
+        "description": "Black olives, paprika, corn",
+        "price": "8",
+        "path_to_photo": ""
+    },
+    {
+        "id": 5,
+        "name": "Mr. Pepper",
+        "description": "Pepperoni, cheese",
+        "price": "7",
+        "path_to_photo": ""
+    },
+    {
+        "id": 6,
+        "name": "Mrs. Sausage",
+        "description": "Sausage, cheese",
+        "price": "11",
+        "path_to_photo": ""
+    },
+    {
+        "id": 7,
+        "name": "Tomata pizzata",
+        "description": "Tomatoes, green olives, a bit of cheese",
+        "price": "6",
+        "path_to_photo": ""
+    },
+    {
+        "id": 8,
+        "name": "Combined pizza",
+        "description": "Pepperoni, cheese, black olives, green paprika",
+        "price": "8",
+        "path_to_photo": ""
+    },
+    {
+        "id": 9,
+        "name": "Sandwich",
+        "description": "Prosciutto, cheese, olives, green paprika",
+        "price": "4",
+        "path_to_photo": ""
+    },
+    {
+        "id": 10,
+        "name": "Giros",
+        "description": "Paultry meat, french fries, tomato",
+        "price": "4",
+        "path_to_photo": ""
+    },
+    {
+        "id": 11,
+        "name": "Pancakes with meat",
+        "description": "Paultry meat, tomato, cheese",
+        "price": "3",
+        "path_to_photo": ""
+    },
+    {
+        "id": 12,
+        "name": "Pancakes with jam",
+        "description": "Pearl jam",
+        "price": "2",
+        "path_to_photo": ""
+    }
+]

@@ -21,7 +21,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 /*
     Routes for Meals
 */
-Route::get('/meals', 'MealController@all')->name('meals.all');
+Route::get('/meals', 'MealController@index')->name('meals.all');
 Route::post('/meals', 'MealController@store')->name('meals.store');
 Route::get('/meals/{Meal}', 'MealController@show')->name('meals.show');
 Route::put('/meals/{Meal}', 'MealController@update')->name('meals.update');
