@@ -46,11 +46,18 @@ return [
         'mysql' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', 'remotemysql.com'),
+            // 'host' => env('DB_HOST', 'gator1422.hostgator.com'),
+            // 'port' => env('DB_PORT', '3306'),
+            // 'database' => env('DB_DATABASE', 'mladenk_reactpizzaproject'),
+            // 'username' => env('DB_USERNAME', 'mladenk_pizzaman'),
+            // 'password' => env('DB_PASSWORD', 'hw5q5fMyBPFpgVpH'),
+
+            'host' => env('DB_HOST', 'j8oay8teq9xaycnm.cbetxkdyhwsb.us-east-1.rds.amazonaws.com	'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'g1i1rY0Kpu'),
-            'username' => env('DB_USERNAME', 'g1i1rY0Kpu'),
-            'password' => env('DB_PASSWORD', 'YYcCfGx8ZU'),
+            'database' => env('DB_DATABASE', 'qaco4zb5jvbayo3w'),
+            'username' => env('DB_USERNAME', 'kexiiwgcz23rdif6'),
+            'password' => env('DB_PASSWORD', 'ejc1wswx58bxu654'),
+
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
